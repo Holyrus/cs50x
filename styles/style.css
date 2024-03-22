@@ -1,0 +1,656 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: 'PT Sans';
+}
+
+html {
+	scroll-behavior: smooth;
+	scrollbar-color: rgb(158, 158, 158) rgb(43, 43, 43);
+	scrollbar-width: 18px;
+}
+
+#nav-left {
+	background-color: rgb(0, 0, 0);
+	width: 21.2%;
+	position: fixed;
+	z-index: 99;
+	left: 0px;
+	overflow: scroll;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	float: left;
+	scrollbar-color: rgb(158, 158, 158) rgb(43, 43, 43);
+	scrollbar-width: 18px;
+}
+
+#nav1 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 46px 32px 32px;
+	height: 360px;
+}
+
+#nav1 > h1 {
+	font-size: 40px;
+}
+
+#nav1 > h2 {
+	font-size: 20px;
+	font-weight: normal;
+	padding-top: 6px;
+}
+
+#nav1 > h3 {
+	font-size: 18px;
+	font-weight: normal;
+	padding-top: 22px;
+	color: rgb(128, 128, 128);
+}
+
+#donate {
+	font-size: 15.75px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	top: 14px;
+}
+
+
+#donate > img {
+	height: 24px;
+	width: 24px;
+	position: relative;
+	top: 7px;
+}
+
+#david {
+	text-decoration: none;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	position: relative;
+	top: 57px;
+	right: 80px;
+}
+
+#davidmail {
+	text-decoration: none;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	position: relative;
+	top: 52px;
+}
+
+#facebook {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 85px;
+	right: 170px;
+}
+
+#facebook > img {
+	width: 24px;
+	height: 25px;
+}
+
+#github {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 84px;
+	right: 175px;
+}
+
+#github > img {
+	width: 23px;
+	height: 23px;
+}
+
+#instagram {
+	position: relative;
+	top: 52px;
+	left: 36px;
+}
+
+#linkedin {
+	position: relative;
+	top: 50px;
+	left: 29px;
+}
+
+#reddit {
+	position: relative;
+	top: 50px;
+	left: 23px;
+}
+
+#threads {
+	position: relative;
+	top: 50px;
+	left: 17px;
+}
+
+#twitter {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+hr {
+	display: block;
+	opacity: 0.15;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#nav2 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 83px;
+}
+
+#player {
+	font-size: 18px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+#player > img {
+	height: 29px;
+	width: 29px;
+	position: relative;
+	top: 7px;
+}
+
+#zoom {
+	font-size: 18px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	bottom: 7px;
+	left: 3px;
+}
+
+#zoomimg1 {
+	height: 29px;
+	width: 29px;
+	position: relative;
+	top: 9px;
+	right: 3px;
+}
+
+#zoomimg2 {
+	height: 29px;
+	width: 29px;
+	position: relative;
+	top: 9px;
+	left: 3px;
+}
+
+#nav3 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 102px;
+}
+
+#ai {
+	font-size: 15.75px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+}
+
+#ai > img {
+	height: 27px;
+	width: 27px;
+	position: relative;
+	top: 7px;
+}
+
+#discussion {
+	font-size: 15.75px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	bottom: 2px;
+}
+
+#discussion > img {
+	height: 23px;
+	width: 27px;
+	position: relative;
+	top: 5px;
+}
+
+.grey {
+	color: rgb(116, 128, 128);
+	display: inline;
+}
+
+#discuss {
+	position: relative;
+	bottom: 2px;
+}
+
+#visual {
+	font-size: 15.75px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	bottom: 7px;
+}
+
+#visual > img {
+	position: relative;
+	top: 7px;
+	right: 1px;
+}
+
+#nav4 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 125px;
+}
+
+#educator {
+	font-size: 15.75px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	left: 3px;
+	top: 11px;
+}
+
+#puzzle {
+	font-size: 15.75px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	left: 3px;
+	top: 14px;
+}
+
+#finproj {
+	font-size: 15.75px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	left: 3px;
+	top: 5px;
+}
+
+#finproj > img {
+	position: relative;
+	top: 9px;
+}
+
+#new {
+	font-size: 15.75px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	left: 3px;
+	top: 9px;
+}
+
+#nav5 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 400px;
+}
+
+#weeks1 {
+	line-height: 1.5;
+	padding-top: 10px;
+	padding-left: 3px;
+}
+
+.week {
+	font-size: 18px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.grey1 {
+	color: rgb(116, 128, 128);
+	font-size: 18px;
+	display: inline;
+}
+
+#additional {
+	font-size: 18px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	position: relative;
+	bottom: 10px;
+}
+
+#additional > img {
+	position: relative;
+	top: 7px;
+}
+
+#nav6 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 110px;
+}
+
+.nav6 {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#finalpr {
+	position: relative;
+	top: 12px;
+	left: 3px;
+}
+
+#galleryprojects {
+	position: relative;
+	top: 6px;
+	left: 3px;
+}
+
+#galleryprojects > img {
+	position: relative;
+	top: 9px;
+}
+
+#seminar {
+	position: relative;
+	top: 10px;
+	left: 3px;
+}
+
+#nav7 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 190px;
+}
+
+.nav7 {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+	line-height: 1.5;
+}
+
+#nav8 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 170px;
+}
+
+.nav8 {
+	color: rgb(255, 255, 255);
+	font-size: 15.75px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+	line-height: 1.5;
+}
+
+#nav9 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 75px;
+}
+
+.nav9 {
+	color: rgb(255, 255, 255);
+	font-size: 15.75px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+	line-height: 1.5;
+}
+
+#nav10 {
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 50px;
+}
+
+.nav10 {
+	color: rgb(255, 255, 255);
+	font-size: 15.75px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+}
+
+#nav11 {
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 625px;
+}
+
+.nav11 {
+	color: rgb(255, 255, 255);
+	font-size: 15.75px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+	line-height: 1.5;
+}
+
+.nav11 > img {
+	position: absolute;
+	padding-left: 2px;
+}
+
+#communities {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+	line-height: 1.5;
+}
+
+#nav12 {
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 340px;
+}
+
+.nav12 {
+	color: rgb(255, 255, 255);
+	font-size: 15.75px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+	line-height: 1.5;
+}
+
+
+#courses {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+	line-height: 1.5;
+}
+
+#nav13 {
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 120px;
+}
+
+#shop > img {
+	padding-top: 10px;
+	width: 245px;
+	height: 100px;
+}
+
+#nav14 {
+	display: block;
+	padding: 4.5px 28px 32px;
+	height: 110px;
+}
+
+#license {
+	color: rgb(255, 255, 255);
+	font-size: 15.75px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	left: 3px;
+}
+
+#license > img {
+	position: relative;
+	top: 5px;
+}
+
+#date {
+	font-size: 15.75px;
+	font-weight: normal;
+	position: relative;
+	top: 25px;
+	left: 3px;
+}
+
+  /* second part */
+
+main {
+	background-color: rgb(33, 37, 41);
+	height: 100%;
+	width: 78.8%;
+	float: right;
+}
+
+.heading > a {
+	font-size: 32px;
+	color: rgb(223, 226, 230);
+	text-decoration: none;
+	position: relative;
+}
+
+#main1 {
+	padding: 80px 35px 20px 30px;
+}
+
+.information {
+	color: #dee2e6;
+	padding-top: 22px;
+	line-height: 1.5;
+}
+
+#hr {
+	display: block;
+	opacity: 1;
+	width: 100%;
+	border-top: 1px solid rgb(233, 236, 240);
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	position: relative;
+	top: 6px;
+}
+
+summary {
+	color: #dee2e6;
+	font-size: 16px;
+	padding-top: 18px;
+	font-weight: bold;
+}
+
+iframe {
+	margin-top: 20px;
+	width: 1130px;
+	height: 650px;
+}
+
+#main2 {
+	padding: 10px 35px 20px 30px;
+	height: 860px;
+}
+
+#h2 > a {
+	font-size: 28px !important;
+}
+
+#h3 > a {
+	font-size: 28px !important;
+}
+
+.orange {
+	color: rgb(240, 153, 163);
+}
+
+#struct {
+	padding-top: 10px;
+}
+
+.info1 {
+	position: relative;
+	bottom: 15px !important;
+}
+
+#ulist1 > li {
+	color: rgb(223, 226, 230);
+	line-height: 1.7;
+	margin-left: 40px;
+	list-style-type: square;
+}
+
+#ulist2 > li {
+	color: rgb(223, 226, 230);
+	line-height: 1.7;
+	margin-left: 80px;
+	list-style-type: square;
+}
+
+#main3 {
+	padding: 10px 35px 20px 30px;
+}
